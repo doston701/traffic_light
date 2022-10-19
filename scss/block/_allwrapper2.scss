@@ -1,50 +1,7 @@
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-.container {
-  max-width: 1000px;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .light {
@@ -102,16 +59,9 @@ img {
 }
 
 .btn__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  flex-direction: column;
 }
 
 .btn1 {
@@ -162,19 +112,13 @@ img {
 }
 
 .lightred {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .lightyellow {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .lightgreen {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-}/*# sourceMappingURL=main.css.map */
+}
